@@ -1,0 +1,30 @@
+CRITICAL - 2026-10-14 04:24:40 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\SiswaModel::getSiswa
+[Method: GET, Route: /]
+in SYSTEMPATH\Model.php on line 759.
+ 1 APPPATH\Controllers\Siswa.php(12): CodeIgniter\Model->__call('getSiswa', [])
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->index()
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-14 04:24:40 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\SiswaModel::getSiswa
+[Method: GET, Route: /]
+in SYSTEMPATH\Model.php on line 759.
+ 1 APPPATH\Controllers\Siswa.php(12): CodeIgniter\Model->__call('getSiswa', [])
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->index()
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-14 04:24:41 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\SiswaModel::getSiswa
+[Method: GET, Route: /]
+in SYSTEMPATH\Model.php on line 759.
+ 1 APPPATH\Controllers\Siswa.php(12): CodeIgniter\Model->__call('getSiswa', [])
+ 2 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Siswa->index()
+ 3 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

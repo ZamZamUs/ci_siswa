@@ -1,0 +1,12 @@
+CRITICAL - 2026-10-13 23:27:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "siswa_view.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('siswa_view.php')
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('siswa_view', [], true)
+ 3 APPPATH\Config\Routes.php(7): view('siswa_view')
+ 4 SYSTEMPATH\CodeIgniter.php(895): CodeIgniter\Router\RouteCollection->{closure:C:\laragon\www\ci_siswa\app\Config\Routes.php:6}()
+ 5 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
